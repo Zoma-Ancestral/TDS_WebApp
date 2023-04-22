@@ -1,7 +1,10 @@
 @import './base.css';
 
 #app {
-  max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   margin: 0 auto;
   padding: 2rem;
 
@@ -22,14 +25,37 @@ a,
 }
 
 @media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
   #app {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
+}
+
+footer {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header {
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header div.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  column-gap: 10px;
+}
+header div.menu-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 10px;
 }
