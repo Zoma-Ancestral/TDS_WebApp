@@ -1,7 +1,6 @@
 <script setup>
 import AppFooter from './components/AppFooter.vue';
 import AppHeader from './components/AppHeader.vue';
-import TheWelcome from './components/TheWelcome.vue';
 </script>
 
 <template>
@@ -10,7 +9,7 @@ import TheWelcome from './components/TheWelcome.vue';
   </header>
 
   <main>
-    <TheWelcome />
+    <router-view />
   </main>
 
   <footer>

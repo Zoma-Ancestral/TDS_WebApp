@@ -5,7 +5,7 @@
 <template>
     <div class="menu">
         <div class="logo">
-            <img src="../../public/Logo.png" loading="lazy" alt="Logo de l'association The Damocles Sword">
+            <img src="/Logo.png" loading="lazy" alt="Logo de l'association The Damocles Sword">
         </div>
         <div class="menu-items">
             <h1 class="item">Header</h1>
