@@ -1,14 +1,12 @@
 <script setup>
-import AppFooter from './components/AppFooter.vue';
-import AppHeader from './components/AppHeader.vue';
+import AppFooter from '@/components/AppFooter.vue';
+import AppHeader from '@/components/AppHeader.vue';
 </script>
 
 <template>
   <AppHeader />
-
-  <main>
+  <main class="has-navbar-fixed-top">
     <router-view />
   </main>
-
-  <AppFooter />
+  <AppFooter />1
 </template>

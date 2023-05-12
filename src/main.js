@@ -1,7 +1,21 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
-
+import firebase from 'firebase'
 import './assets/main.scss'
 
-createApp(App).use(router).mount('#app')
+
+// const firebaseConfig = {
+//   apiKey: "AIzaSyA0W9EYKr6p2nHpQ69jGy1zPSCcy4BRE3k",
+//   authDomain: "thedamoclessword-d00e7.firebaseapp.com",
+//   projectId: "thedamoclessword-d00e7",
+//   storageBucket: "thedamoclessword-d00e7.appspot.com",
+//   messagingSenderId: "470494904828",
+//   appId: "1:470494904828:web:acca274e6a17c3ebe67279"
+// };
+
+// firebase.initializeApp(firebaseConfig)
+
+const app = createApp(App)
+app.user(router)
+app.mount("#app")

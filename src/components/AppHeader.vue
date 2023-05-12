@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item" href="/">
         <img src="/Logo.png" loading="lazy" alt="Logo de l'association The Damocles Sword"/>
@@ -11,6 +11,9 @@
           The Damocles Sword
         </p>
       </a>
+      <router-link to="/register">
+        Register
+      </router-link>
     </div>
 
     <div id="navbarBasicExample" class="navbar-menu">

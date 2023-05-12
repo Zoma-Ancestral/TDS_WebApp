@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer class="footer">
+  <footer class="footer block">
     <div class="content has-text-centered">
       <p>
         <strong>The Damocles Sword</strong> est une Association à but non lucratif sous loi 1901
