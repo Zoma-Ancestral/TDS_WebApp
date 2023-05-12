@@ -3,24 +3,29 @@
 </script>
 
 <template>
-    <div class="menu">
-        <div class="logo">
-            <img src="/Logo.png" loading="lazy" alt="Logo de l'association The Damocles Sword">
-        </div>
-        <div class="menu-items">
-            <h1 class="item">Header</h1>
-            <h1 class="item">Test</h1>
-        </div>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="/">
+        <img src="/Logo.png" loading="lazy" alt="Logo de l'association The Damocles Sword"/>
+        <p class="navbar-item">
+          The Damocles Sword
+        </p>
+      </a>
     </div>
-    <div>
-        <h2>Connexion</h2>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary">
+                Espace Adhérents
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+  </nav>
 </template>
 
 <style scoped>
-    .menu {
-        height: 10vh;
-        width: 100%;
-        align-items: first;
-    }
 </style>

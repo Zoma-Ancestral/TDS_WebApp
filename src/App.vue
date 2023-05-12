@@ -4,15 +4,11 @@ import AppHeader from './components/AppHeader.vue';
 </script>
 
 <template>
-  <header>
-    <AppHeader />
-  </header>
+  <AppHeader />
 
   <main>
     <router-view />
   </main>
 
-  <footer>
-    <AppFooter />
-  </footer>
+  <AppFooter />
 </template>
