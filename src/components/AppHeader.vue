@@ -16,3 +16,11 @@
         <h2>Connexion</h2>
     </div>
 </template>
+
+<style scoped>
+    .menu {
+        height: 10vh;
+        width: 100%;
+        align-items: first;
+    }
+</style>
