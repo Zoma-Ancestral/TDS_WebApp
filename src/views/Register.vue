@@ -7,7 +7,6 @@
 
 <script setup>
   import { ref } from 'vue'
-  import firebase from 'firebase'
   import { useRouter } from 'vue-router';
 
   const email = ref('')

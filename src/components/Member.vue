@@ -4,14 +4,17 @@
       <article class="media">
         <div class="media-left">
           <figure class="image is-128x128">
-            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+            <img class="is-rounded" src="https://cdn.discordapp.com/avatars/222392311986782218/9508dd88956afeb1b645fb13ed8ab91f.webp?size=128" alt="Image">
           </figure>
         </div>
         <div class="media-content">
           <div class="content">
             <p>
-              <strong>Membre</strong> | Role<br>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+              <strong>Weis</strong> | Président<br>
+              J'ai découvert League of legends en saison 4 par le biais d'un ami qui a installé le jeux sur mon PC pendant mon absence.
+              Je suis vite tombé amoureux du jeux, mais mon expérience de jeux en solo m'a vite lassé
+              J'ai donc voulu trouver des personnes pour jouer de manière régulière, développer une cohésion d'équipe et progresser ensemble
+              C'est de cette manière que la première équipe du nom de "The Damocles Sword" est né en saison 5
             </p>
           </div>
           <nav class="level is-mobile">

@@ -11,7 +11,7 @@
           The Damocles Sword
         </p>
       </a>
-      <router-link to="/register">
+      <router-link class="navbar-item" to="/register">
         Register
       </router-link>
     </div>

@@ -8,5 +8,5 @@ import AppHeader from '@/components/AppHeader.vue';
   <main class="has-navbar-fixed-top">
     <router-view />
   </main>
-  <AppFooter />1
+  <AppFooter />
 </template>
