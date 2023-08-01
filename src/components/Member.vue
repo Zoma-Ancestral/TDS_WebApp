@@ -1,3 +1,14 @@
+<script>
+  export default {
+    props: {
+      memberName: String,
+      memberFunction: String,
+      memberPicture: String,
+      memberDesc: String
+    }
+  }
+</script>
+
 <template>
   <div class="column">
     <div class="box">
