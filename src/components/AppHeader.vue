@@ -16,6 +16,12 @@ import { RouterLink } from 'vue-router';
       <router-link class="navbar-item" to="/register">
         Register
       </router-link>
+      <router-link class="navbar-item" to="/login">
+        Log in
+      </router-link>
+      <router-link class="navbar-item" to="/logout">
+        Log out
+      </router-link>
     </div>
 
     <div id="navbarBasicExample" class="navbar-menu">
