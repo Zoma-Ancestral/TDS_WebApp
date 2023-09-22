@@ -1,12 +1,11 @@
 <script setup>
   import { useRouter } from 'vue-router';
-  import { getAuth, signOut } from 'firebase/auth';
+  import { logoutUser } from '../firebase/firebaseAuthentification';
 
   const router = useRouter()
 
-  const auth = getAuth()
-  signOut(auth)
-    .then(() => {
+  logoutUser()
+    .then((result) => {
       console.log("Log out complete")
       router.push("/")
     })
