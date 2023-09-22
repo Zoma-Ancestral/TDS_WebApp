@@ -1,17 +1,24 @@
 <script setup>
   import { ref } from 'vue'
   import { useRouter } from 'vue-router';
+  import { getAuth, createUserWithEmailAndPassword, setPersistence, browserLocalPersistence } from 'firebase/auth';
 
   const email = ref('')
   const password = ref('')
   const router = useRouter()
+  const auth = getAuth()
   const register = () => {
-    firebase
-      .auth()
-      .createUserWithEmailAndPassword(email.value, password.value)
-      .then((data) => {
-        console.log("Sucessfully registered")
-        router.push('/dashboard')
+    setPersistence(auth, browserLocalPersistence)
+      .then(() =>{
+        createUserWithEmailAndPassword(auth, email.value, password.value)
+          .then((userCredential) => {
+            console.log("Sucessfully logged in")
+            router.push('/dashboard')
+          })
+          .catch(error => {
+            console.log(error.code)
+            alert(error.message)
+          })
       })
       .catch(error => {
         console.log(error.code)
